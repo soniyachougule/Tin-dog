@@ -1,0 +1,192 @@
+
+body{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: left;
+
+  }
+h2{
+  /* color: #fff; */
+
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+h3{
+
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+p{
+  color: #8f8f8f;
+}
+/* navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+
+/* Dounload Buttons */
+.dounload-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature section */
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+
+
+ }
+.feature-box{
+
+    padding: 5%;
+
+}
+.feature-title-font{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.feat-para-color{
+  color: #8f8f8f;
+}
+
+
+   /* Testimonials Section */
+#testimonials{
+
+  background-color: #ef8172;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+.testi-title-color{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+em{
+  color: #fff;
+}
+.testimonial-text{
+  color: #fff;
+}
+
+  /* Pess section */
+
+#press{
+  background-color: #ef8172;
+
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing{
+  padding: 100px;
+
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/*-----------CTA Section----------- */
+#cta{
+  padding: 6% 15%;
+  background-color: #ff4c68;
+}
+.cta-title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #fff;
+
+
+}
+.cta-button{
+
+}
+/*-------------- Footer Section---------------- */
+#footer{
+  padding: 6% 15%;
+  background-color: #fff;
+
+}
+.footer-icons{
+  margin: 20px;
+}
+.foo-icon {
+  margin: 10px;
+}
